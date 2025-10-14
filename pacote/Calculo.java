@@ -12,4 +12,8 @@ public class Calculo {
     public static double multiplicar(double a, double b) {
         return a * b;
     }
+
+    public static double exponenciar(double a, double b) {
+        return Math.pow(a, b);
+    }
 }

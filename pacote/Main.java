@@ -37,6 +37,17 @@ public class Main {
                 double resultadoProduto = Calculo.multiplicar(a, b);
                 System.out.printf("O resultado da soma de %.2f com %.2f é %.2f.", a, b, resultadoProduto);
                 break;
+            case "4":
+                if (b == 0) {
+                    System.out.println("O divisor deve ser diferente de 0 (zero).");
+                }
+                break;
+            case "5":
+                //
+            case "6":
+                double resultadoExponencial = Calculo.exponenciar(a, b);
+                System.out.printf("O resultado da soma de %.2f com %.2f é %.2f.", a, b, resultadoExponencial);
+                break;
         }
 
         sc.close();
