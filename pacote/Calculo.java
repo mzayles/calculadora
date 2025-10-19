@@ -1,3 +1,4 @@
+package pacote;
 
 public class Calculo {
     public static double somar(double a, double b) {
